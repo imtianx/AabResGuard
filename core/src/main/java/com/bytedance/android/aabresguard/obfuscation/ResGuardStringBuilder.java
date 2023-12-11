@@ -4,6 +4,7 @@ import com.bytedance.android.aabresguard.utils.Utils;
 
 import java.util.ArrayList;
 import java.util.Collection;
+import java.util.Collections;
 import java.util.HashSet;
 import java.util.List;
 import java.util.Set;
@@ -76,6 +77,7 @@ public class ResGuardStringBuilder {
                 }
             }
         }
+        Collections.shuffle(mReplaceStringBuffer);
     }
 
     // 对于某种类型用过的mapping，全部不能再用了

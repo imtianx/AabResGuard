@@ -32,11 +32,15 @@ buildscript {
 allprojects {
     repositories {
         google()
+        mavenCentral()
         if ("true".equalsIgnoreCase(System.getProperty('useLocalMaven', "false"))) {
             mavenLocal()
         } else {
             maven { url findProperty("RELEASE_REPOSITORY_URL") }
             maven { url findProperty("SNAPSHOT_REPOSITORY_URL") }
+        }
+        maven {
+            url "https://plugins.gradle.org/m2/"
         }
     }
 }
