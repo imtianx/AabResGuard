@@ -4,7 +4,7 @@
   <p align="center" style="font-size: 0.3em">The tool of obfuscated aab resources</p>
 </h1>
 
-[Download V.0.1.10](https://github.com/martinloren/mvn-repo/raw/main/AabResGuard_0.1.10.zip)
+[Download V.0.1.11](https://github.com/imtianx/AabResGuard/releases/download/v0.1.11/AabResGuard_0.1.11.zip)
 
 [![License](https://img.shields.io/badge/license-Apache2.0-brightgreen)](LICENSE) [![Bundletool](https://img.shields.io/badge/Dependency-Bundletool/0.10.0-blue)](https://github.com/google/bundletool)
 
@@ -39,10 +39,10 @@ buildscript {
     mavenCentral()
     mavenLocal()
     google()
-    maven { url 'https://raw.githubusercontent.com/martinloren/AabResGuard/mvn-repo' }
+    maven { url 'https://raw.githubusercontent.com/imtianx/AabResGuard/mvn-repo' }
    }
   dependencies {
-    classpath "com.bytedance.android:aabresguard-plugin:0.1.10"
+    classpath "com.bytedance.android:aabresguard-plugin:0.1.11"
   }
 }
 ```
@@ -120,6 +120,7 @@ Read the details to learn how to participate in the improvement **AabResGuard**.
 * [Zhiqian Yang](https://github.com/yangzhiqian)
 * [Xiaoshuang Bai (Designer)](https://www.behance.net/shawnpai)
 * [Martinloren](https://github.com/martinloren)
+* [imtianx](https://github.com/imtianx)
 
 ## Thanks
 * [AndResGuard](https://github.com/shwenzhang/AndResGuard/)
